@@ -42,4 +42,7 @@ safety_settings:
 **Comentário:**
 Os filtros estão em "Block Few" pois como o projeto irá trabalhar com redações, ele precisará estar apto à trabalhar com os temas a serem dissertados nas propostas de redações, quem podem incluir assuntos sensíveis e que possívelmente entrariam em conflito com um filtro mais rigoroso. Foi mantido um mínimo de rigorosidade no filtro para evitar resultados efetivamente ofensivos.
 
+**DEMONSTRAÇÃO DO RELATÓRIO:**
+![Exemplo do relatório](https://github.com/Cavafa27/FEC-Free_Essay_Corrector/blob/main/rel_final.PNG)
+
 **LEGAL:** Os textos disponíveis para teste ou foram cedidos pessoalmente para o projeto, ou estão disponíveis gratuitamente na internet como modelos de redação.
