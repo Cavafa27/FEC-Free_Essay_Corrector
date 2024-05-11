@@ -11,7 +11,7 @@ A versão escolhida foi a gemini-1.5-pro-latest devido aos seguintes fatores:
 
 Devido ao fato desta versão ainda estar como "Preview", não foi possível configurar os parâmetros para consulta e geração. Caso fosse possível a configuração utilizada seria (resumo):
 
-generation_config:
+generation_config: (não utilizado devido à versão)
 - "temperature": 0.5
 - "top_p": 1,
 - "top_k": 5,
