@@ -1,7 +1,7 @@
 # FEC-Free_Essay_Corrector
 ## Projeto Imersão IA Alura + Google - Corretor de Redações para ENEM automatizado
 
-![FEC.png]([URL da imagem](https://github.com/Cavafa27/FEC-Free_Essay_Corrector/blob/main/FEC.png))
+![FEC.png]([https://github.com/Cavafa27/FEC-Free_Essay_Corrector/blob/main/FEC.png])
 
 
 **INSTRUÇÕES:** Será solicitado ao usuário que dê entrada de um texto para a correção. Isso pode ser feito com qualquer texto desejado. No arquivo "Redações para teste da aplicação" há dois textos disponíveis para teste. 
