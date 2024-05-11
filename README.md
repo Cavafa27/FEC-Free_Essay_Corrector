@@ -4,20 +4,27 @@
 ![Logo FEC](https://github.com/Cavafa27/FEC-Free_Essay_Corrector/blob/main/FEC.png)
 
 
-**INSTRUÇÕES:** Será solicitado ao usuário que dê entrada de um texto para a correção. Isso pode ser feito com qualquer texto desejado. No arquivo "Redações para teste da aplicação" há dois textos disponíveis para teste. 
+**INSTRUÇÕES:** 
+Será solicitado ao usuário que dê entrada de um texto para a correção. Isso pode ser feito com qualquer texto desejado. No arquivo "Redações para teste da aplicação" há dois textos disponíveis para teste. 
 
-**OBJETIVO:** Universalizar o acesso à correção de redações para vestibulares.
+**OBJETIVO:** 
+Universalizar o acesso à correção de redações para vestibulares.
 
-**PÚBLICO ALVO:** Estudantes carentes candidatos ao Ensino Superior.
+**PÚBLICO ALVO:** 
+Estudantes carentes candidatos ao Ensino Superior.
 
-**DESCRIÇÃO:** A preparação para o ENEM e vestibulares é uma etapa fundamental na vida de todos. Devido à profunda desigualdade social, estudantes que não podem pagar um curso pré-vestibular ou professor acabam por não ter acesso à ferramentas que lhes permitam competir em pé de igualdade com os demais candidatos. O **FEC** foi desenvolvido para que qualquer pessoa que possua um celular possa treinar sua escrita recebendo um feedback detalhado sobre sua produção, assim como uma estimativa de nota simulando os critérios do ENEM.
+**DESCRIÇÃO:** 
+A preparação para o ENEM e vestibulares é uma etapa fundamental na vida de todos. Devido à profunda desigualdade social, estudantes que não podem pagar um curso pré-vestibular ou professor acabam por não ter acesso à ferramentas que lhes permitam competir em pé de igualdade com os demais candidatos. O **FEC** foi desenvolvido para que qualquer pessoa que possua um celular possa treinar sua escrita recebendo um feedback detalhado sobre sua produção, assim como uma estimativa de nota simulando os critérios do ENEM.
 
-**ALIMENTAÇÃO DO MODELO:** O Modelo foi alimentado utilizando as orientações e critérios utilizados para correção de redações do ENEM definidos pelo ministério da cultura (MEC)
+**ALIMENTAÇÃO DO MODELO:** 
+O Modelo foi alimentado utilizando as orientações e critérios utilizados para correção de redações do ENEM definidos pelo ministério da cultura (MEC)
 Os dados utilizados podem ser encontrados em: http://portal.mec.gov.br/ultimas-noticias/418-enem-946573306/81381-conheca-as-cinco-competencias-cobradas-na-redacao-do-enem
 
-**OBSERVAÇÕES:** O projeto original partia da premissa que seria possível selecionar um arquivo a partir do Google Drive para ser processado pela Gemini e posteriormente avaliado e corrigido. Após a constatação que para isso seria necessário ativar a Google Cloud Vision API, e por não ter certeza se isso seria permitido no concurso, o projeto foi adaptado para a entrada manual de texto.
+**OBSERVAÇÕES:** 
+O projeto original partia da premissa que seria possível selecionar um arquivo a partir do Google Drive para ser processado pela Gemini e posteriormente avaliado e corrigido. Após a constatação que para isso seria necessário ativar a Google Cloud Vision API, e por não ter certeza se isso seria permitido no concurso, o projeto foi adaptado para a entrada manual de texto.
 
-**ESCOLHA DA VERSÃO DO GEMINI:** A versão escolhida foi a gemini-1.5-pro-latest devido aos seguintes fatores:
+**ESCOLHA DA VERSÃO DO GEMINI:** 
+A versão escolhida foi a gemini-1.5-pro-latest devido aos seguintes fatores:
 - Ser a atual versão estável (10/05/2024).
 - Ter sido a versão utilizada na interface do Google IA Studio para aprendizado e teste das hipóteses para este projeto.
 
@@ -45,4 +52,5 @@ Os filtros estão em "Block Few" pois como o projeto irá trabalhar com redaçõ
 **DEMONSTRAÇÃO DO RELATÓRIO:**
 ![Exemplo do relatório](https://github.com/Cavafa27/FEC-Free_Essay_Corrector/blob/main/rel_final.PNG)
 
-**LEGAL:** Os textos disponíveis para teste ou foram cedidos pessoalmente para o projeto, ou estão disponíveis gratuitamente na internet como modelos de redação.
+**LEGAL:** 
+Os textos disponíveis para teste ou foram cedidos pessoalmente para o projeto, ou estão disponíveis gratuitamente na internet como modelos de redação.
